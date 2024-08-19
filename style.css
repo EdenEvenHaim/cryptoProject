@@ -95,18 +95,27 @@ nav a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
 }
 
-.result-card h2 {
+.toggle-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.result-card p {
     font-size: 1.5rem;
     color: #013F4E;
     margin-bottom: 10px;
 }
 
-.result-card p {
+.result-card h2 {
     font-size: 1rem;
     color: #B43F3F;
 }
+
+
 
 .more-info-button {
     background-color: #FFD700;
@@ -117,9 +126,9 @@ nav a {
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
+    margin-top: auto;
 }
 
 .more-info-button:hover {
     background-color: #E5B800;
 }
-
